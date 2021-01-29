@@ -4,7 +4,7 @@
 
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-10">
             <div class="card">
                 <div class="card-header">{{ __('Dashboard') }}</div>
 
@@ -20,7 +20,7 @@
                     </div>
                     @endif
                     
-                    <div class="row">
+                    <div class="row gap-1 col-8">
                     <a href="/contacts/create" class="btn btn-primary">Add Contact</a>&nbsp;&nbsp;<a href="/home" class="btn btn-primary">Back to Home</a>
                     &nbsp;&nbsp; <form action="/search" method="GET">
                           <div class="input-group">
@@ -33,7 +33,7 @@
                     </div>
                     <br><br>
                     @if(count($contacts)>0)
-                    <table class="table">
+                    <table class="table  table-bordered table-striped">
                         <thead>
                             <tr>
                             <th>Name</th>

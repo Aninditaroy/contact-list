@@ -3,11 +3,18 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-12 mt-2">  
-            <h4 style="color:#2196F3; margin-bottom: 20px;">Get Started absolutely free!</h4>
-            <caption>Hello, Everyone! Login or Register here to your accesss.</caption>
-            <img src="https://images.pexels.com/photos/33999/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid">
+    <div class="card-body">
+   
+        <div class="col-md-10 mt-2"> 
+        <div class="justify-content-md">
+        <h2>Get Started! </h2> <br>
+        <a href="/login" class="btn btn-info mx-auto d-block"> You need to login to see the contact list</a><br><br>
+        <img src="https://image.freepik.com/free-photo/e-mail-marketing-concept-hand-using-computer-sending-message-with-wooden-cube-block-with-icon-mail-address-telephone-symbol_20693-243.jpg"  class="mx-auto d-block" alt="contact list" height=auto; width=100%;> 
+         </div>
        </div>
+       </div>
+       
     </div>
 </div>
 @endsection
+
